@@ -1,0 +1,80 @@
+.footer{
+    display: flex;
+    background-color: #363b3e;
+    height: 350px;
+    color: #ffff;
+    padding: 50px 80px;
+}
+.signup{
+    flex:1;
+    font-size: 24px;
+}
+.inputtext{
+    padding: 10px;
+    width: 75%;
+    border-radius: 8px;
+    border: 1px solid #dce1e5;
+    background: transparent;
+    color: #ffff;
+}
+.categories{
+    padding: 0 200px;
+    flex:2;
+}
+.signup div{
+    margin: 15px 0;
+}
+.signupbtn{
+    color: #ffffff;
+    background-color: #2c88b5;
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.linksClass ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.linksClass ul li{
+    padding: 5px 0;
+}
+.linksClass ul:first-child {
+    padding-left: 0px;
+  }
+  .linksClass ul:not(:first-child){
+    padding-left: 100px;
+  }
+.categoryTitle{
+    font-size: 24px;
+}
+.footerlinks{
+    display: flex;
+    height: 100px;
+    background-color: #ffff;
+    padding: 20px 80px;
+    color: #807b7b;
+}
+.footerlinks .links{
+    flex:2;
+}
+
+.footerlinks .sociallinks{
+    flex:1;
+    text-align: right;
+    color: #787575;
+}
+
+.sociallinks i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 1em 1.1em;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .footer a{
+    color: #ffff;
+    text-decoration: none;
+  }
