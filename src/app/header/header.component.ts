@@ -21,6 +21,7 @@ export class HeaderComponent implements OnInit {
   }
 
   searchClick() {
+
     this.commonapi.searchFunctionality(this.search ? this.search : 'a').subscribe((data: any) => {
       this.passMsg(data);
     })
